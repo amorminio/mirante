@@ -1,0 +1,9 @@
+#Qualidade
+ruff
+mypy
+
+#Testes
+pytest
+pytest-cov
+
+

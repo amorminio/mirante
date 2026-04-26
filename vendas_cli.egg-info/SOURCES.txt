@@ -1,0 +1,15 @@
+setup.py
+src/__init__.py
+src/analytics.py
+src/main.py
+src/models.py
+src/processing.py
+tests/__init__.py
+tests/test_analytics.py
+tests/test_processing.py
+vendas_cli.egg-info/PKG-INFO
+vendas_cli.egg-info/SOURCES.txt
+vendas_cli.egg-info/dependency_links.txt
+vendas_cli.egg-info/entry_points.txt
+vendas_cli.egg-info/requires.txt
+vendas_cli.egg-info/top_level.txt

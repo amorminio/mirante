@@ -1,0 +1,2 @@
+[console_scripts]
+vendas-cli = src.main:main

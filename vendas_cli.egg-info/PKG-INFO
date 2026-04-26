@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: vendas-cli
+Version: 0.1
+Summary: CLI para processamento de arquivos CSV: Lê um CSV e gera um relatório de faturamento.
+Author: Raphael Amorminio
+Requires-Python: >=3.10
+Requires-Dist: charset-normalizer==3.3.2
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

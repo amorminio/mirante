@@ -1,19 +1,17 @@
 import os
+import argparse
 from src.processing import parse_vendas
 from src.analytics import gerar_relatorio_faturamento
 from charset_normalizer import from_path
 
-
 def main():
-   
-    #caminho = input("Digite o caminho do arquivo CSV: ")
-    caminho = "data/exemplo1.csv"
-    codificacao = detectar_encoding(caminho)
-    print(f"Codificação detectada: {codificacao}")
+
+    caminho_csv = parser_config()
+    codificacao = detectar_encoding(caminho_csv)
     
     try:
         print("Iniciando processamento...")
-        with open(caminho, mode="r", encoding=codificacao) as arquivo:
+        with open(caminho_csv, mode="r", encoding=codificacao) as arquivo:
             print("Lendo arquivo...")
             vendas = parse_vendas(arquivo)
             print("Processando vendas...")
@@ -31,6 +29,24 @@ def detectar_encoding(caminho_arquivo:str) -> str:
         return resultado.encoding
     return "utf-8"
 
+def parser_config():
+    parser = argparse.ArgumentParser(
+        description="Processador de Vendas: Lê um CSV e gera um relatório de faturamento."
+    )
+
+    parser.add_argument(
+        "arquivo", 
+        help="Caminho para o arquivo CSV de vendas"
+    )
+
+    args = parser.parse_args()
+    caminho_csv = args.arquivo
+
+    if not os.path.exists(caminho_csv):
+        print(f"Erro: O arquivo '{caminho_csv}' não foi encontrado.")
+        sys.exit(1)
+
+    return caminho_csv
 
 if __name__ == "__main__":
     main()

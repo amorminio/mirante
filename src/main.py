@@ -6,7 +6,7 @@ from datetime import datetime
 from .logger import configurar_logger, get_logger
 from .util import validar_data
 from src.processing import parse_vendas
-from src.analytics import gerar_relatorio_faturamento
+from src.analytics import gerar_relatorio_faturamento, vendas_por_produto
 
 
 
@@ -37,8 +37,13 @@ def main() -> None:
                 fim=fim
             )
             
-            relatorio = gerar_relatorio_faturamento(vendas)
-            logger.info(f"Relatório gerado: {relatorio}")
+            relatorio_faturamento = gerar_relatorio_faturamento(vendas)
+            relatorio_vendas_por_produto = vendas_por_produto(vendas)
+            
+            logger.info(f"Relatório Faturamento: {relatorio_faturamento}")
+            logger.info(f"Relatório vendas por produto: {relatorio_vendas_por_produto}")
+            
+            
             logger.info("Processamento concluído!")
     except FileNotFoundError:
         logger.error("Arquivo não encontrado!")
@@ -47,6 +52,7 @@ def main() -> None:
 
 def detectar_encoding(caminho_arquivo:str) -> str:
     resultado = from_path(caminho_arquivo).best()
+    
     if resultado:
         return resultado.encoding
     return "utf-8"
@@ -61,7 +67,6 @@ def parser_config() -> Dict[str,Any]:
     parser.add_argument("arquivo", help="Caminho para o arquivo CSV")
     parser.add_argument("--inicio", help="Data inicial do período (dd-mm-YYYY)", type=validar_data)
     parser.add_argument("--fim", help="Data final do período (dd-mm-YYYY)", type=validar_data)
-
 
     args = parser.parse_args()
     caminho_csv = args.arquivo

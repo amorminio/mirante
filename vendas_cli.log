@@ -743,3 +743,41 @@
 2026-04-27 08:43:44,884 - INFO - Foram processadas 13 vendas
 2026-04-27 08:43:44,884 - INFO - Relatório gerado: 20916.88
 2026-04-27 08:43:44,884 - INFO - Processamento concluído!
+2026-04-27 08:46:17,093 - INFO - Iniciando processamento: ./data/vendas_100_linhas.csv
+2026-04-27 08:46:17,093 - INFO - Parâmetros informados: {'arquivo': './data/vendas_100_linhas.csv', 'inicio': datetime.datetime(2026, 1, 1, 0, 0), 'fim': datetime.datetime(2026, 5, 5, 0, 0)}
+2026-04-27 08:46:17,093 - INFO - Lendo arquivo
+2026-04-27 08:46:17,093 - INFO - Processando vendas...
+2026-04-27 08:46:17,094 - WARNING - Linha com data vazia ignorada: {'produto': 'Cooler Fan 120mm', 'quantidade': '5', 'preco_unitario': '362.63', 'data_venda': None}
+2026-04-27 08:46:17,096 - INFO - Foram processadas 13 vendas
+2026-04-27 08:46:17,096 - INFO - Relatório gerado: 20916.88
+2026-04-27 08:46:17,096 - INFO - Processamento concluído!
+2026-04-27 08:52:50,419 - INFO - Iniciando processamento: ./data/vendas_100_linhas.csv
+2026-04-27 08:52:50,419 - INFO - Parâmetros informados: {'arquivo': './data/vendas_100_linhas.csv', 'inicio': datetime.datetime(2026, 1, 1, 0, 0), 'fim': datetime.datetime(2026, 5, 5, 0, 0)}
+2026-04-27 08:52:50,419 - INFO - Lendo arquivo
+2026-04-27 08:52:50,420 - INFO - Processando vendas...
+2026-04-27 08:52:50,420 - WARNING - Linha com data vazia ignorada: {'produto': 'Cooler Fan 120mm', 'quantidade': '5', 'preco_unitario': '362.63', 'data_venda': None}
+2026-04-27 08:52:50,422 - INFO - Foram processadas 13 vendas
+2026-04-27 08:52:50,422 - ERROR - Erro ao processar arquivo: name 'vendas_por_produto' is not defined
+2026-04-27 08:53:24,021 - INFO - Iniciando processamento: ./data/vendas_100_linhas.csv
+2026-04-27 08:53:24,022 - INFO - Parâmetros informados: {'arquivo': './data/vendas_100_linhas.csv', 'inicio': datetime.datetime(2026, 1, 1, 0, 0), 'fim': datetime.datetime(2026, 5, 5, 0, 0)}
+2026-04-27 08:53:24,022 - INFO - Lendo arquivo
+2026-04-27 08:53:24,022 - INFO - Processando vendas...
+2026-04-27 08:53:24,022 - WARNING - Linha com data vazia ignorada: {'produto': 'Cooler Fan 120mm', 'quantidade': '5', 'preco_unitario': '362.63', 'data_venda': None}
+2026-04-27 08:53:24,024 - INFO - Foram processadas 13 vendas
+2026-04-27 08:53:24,025 - ERROR - Erro ao processar arquivo: name 'vendas_por_produto' is not defined
+2026-04-27 08:53:29,615 - INFO - Iniciando processamento: ./data/vendas_100_linhas.csv
+2026-04-27 08:53:29,615 - INFO - Parâmetros informados: {'arquivo': './data/vendas_100_linhas.csv', 'inicio': None, 'fim': None}
+2026-04-27 08:53:29,615 - INFO - Lendo arquivo
+2026-04-27 08:53:29,615 - INFO - Processando vendas...
+2026-04-27 08:53:29,617 - WARNING - Linha com data vazia ignorada: {'produto': 'Cooler Fan 120mm', 'quantidade': '5', 'preco_unitario': '362.63', 'data_venda': None}
+2026-04-27 08:53:29,622 - INFO - Foram processadas 299 vendas
+2026-04-27 08:53:29,622 - ERROR - Erro ao processar arquivo: name 'vendas_por_produto' is not defined
+2026-04-27 08:54:29,745 - INFO - Iniciando processamento: ./data/vendas_100_linhas.csv
+2026-04-27 08:54:29,745 - INFO - Parâmetros informados: {'arquivo': './data/vendas_100_linhas.csv', 'inicio': None, 'fim': None}
+2026-04-27 08:54:29,745 - INFO - Lendo arquivo
+2026-04-27 08:54:29,745 - INFO - Processando vendas...
+2026-04-27 08:54:29,749 - WARNING - Linha com data vazia ignorada: {'produto': 'Cooler Fan 120mm', 'quantidade': '5', 'preco_unitario': '362.63', 'data_venda': None}
+2026-04-27 08:54:29,752 - INFO - Foram processadas 299 vendas
+2026-04-27 08:54:29,752 - INFO - Relatório Faturamento: 423175.12
+2026-04-27 08:54:29,752 - INFO - Relatório vendas por produto: {'Webcam 1080p': 115, 'Cabo HDMI 2m': 113, 'Pendrive 64GB': 102, 'Roteador Dual Band': 114, 'SSD 480GB': 91, 'Teclado Mecânico': 76, 'Placa de Vídeo': 39, 'Switch 8 Portas': 97, 'Gabinete ATX': 83, 'Fonte 500W': 89, 'Processador i5': 70, 'Cabo de Rede Cat6': 79, 'Adaptador Wi-Fi': 78, 'Memória RAM 8GB': 73, 'Pasta Térmica': 89, 'Mousepad Extra Large': 89, 'Mouse Gamer RGB': 50, 'Headset USB': 93, 'Cooler Fan 120mm': 84, 'Monitor 24 Pol': 83}
+2026-04-27 08:54:29,752 - INFO - Processamento concluído!

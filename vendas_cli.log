@@ -935,3 +935,17 @@
 2026-04-27 10:51:06,953 - WARNING - Linha com data vazia ignorada: {'produto': 'Cooler Fan 120mm', 'quantidade': '5', 'preco_unitario': '362.63', 'data_venda': None}
 2026-04-27 10:51:06,955 - INFO - Foram processadas 299 vendas
 2026-04-27 10:51:06,968 - INFO - Processamento concluído!
+2026-04-27 11:43:46,826 - INFO - Iniciando processamento: ./data/vendas_100_linhas.csv
+2026-04-27 11:43:46,826 - INFO - Parâmetros informados: {'arquivo': './data/vendas_100_linhas.csv', 'inicio': None, 'fim': None}
+2026-04-27 11:43:46,826 - INFO - Lendo arquivo
+2026-04-27 11:43:46,826 - INFO - Processando vendas...
+2026-04-27 11:43:46,828 - WARNING - Linha com data vazia ignorada: {'produto': 'Cooler Fan 120mm', 'quantidade': '5', 'preco_unitario': '362.63', 'data_venda': None}
+2026-04-27 11:43:46,830 - INFO - Foram processadas 299 vendas
+2026-04-27 11:43:46,844 - INFO - Processamento concluído!
+2026-04-27 12:25:01,773 - INFO - Iniciando processamento: ./data/vendas_100_linhas.csv
+2026-04-27 12:25:01,773 - INFO - Parâmetros informados: {'arquivo': './data/vendas_100_linhas.csv', 'inicio': None, 'fim': None}
+2026-04-27 12:25:01,773 - INFO - Lendo arquivo
+2026-04-27 12:25:01,773 - INFO - Processando vendas...
+2026-04-27 12:25:01,776 - WARNING - Linha com data vazia ignorada: {'produto': 'Cooler Fan 120mm', 'quantidade': '5', 'preco_unitario': '362.63', 'data_venda': None}
+2026-04-27 12:25:01,778 - INFO - Foram processadas 299 vendas
+2026-04-27 12:25:01,791 - INFO - Processamento concluído!

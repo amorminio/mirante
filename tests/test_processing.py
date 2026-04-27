@@ -14,8 +14,6 @@ def test_parse_vendas():
     buffer = io.StringIO(mock_data)
     resultado = parse_vendas(buffer)
     
-    print('resultado>>',resultado)
-    
     assert len(resultado) == 1
     assert resultado[0].produto == "Teclado"
     assert resultado[0].quantidade == 7

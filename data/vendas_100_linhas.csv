@@ -1,101 +1,301 @@
-produto,quantidade,preco_unitario
-Headset USB,10,462.62
-Switch 8 Portas,2,224.9
-Cabo de Rede Cat6,4,94.68
-Processador i5,2,372.49
-Gabinete ATX,3,315.42
-Webcam 1080p,8,44.05
-Mouse Gamer RGB,4,275.11
-Adaptador Wi-Fi,3,384.29
-Placa de Vídeo,1,96.44
-Processador i5,7,206.79
-Processador i5,7,330.18
-Cabo HDMI 2m,5,415.13
-Teclado Mecânico,2,333.24
-Gabinete ATX,2,111.51
-Adaptador Wi-Fi,4,252.07
-SSD 480GB,3,91.0
-Monitor 24 Pol,10,65.05
-SSD 480GB,8,127.22
-Mouse Gamer RGB,10,283.51
-SSD 480GB,3,265.17
-Teclado Mecânico,9,316.14
-Cabo de Rede Cat6,10,313.46
-Cabo HDMI 2m,10,489.49
-Headset USB,10,388.0
-Placa de Vídeo,4,171.4
-Fonte 500W,9,450.86
-Cabo de Rede Cat6,1,157.99
-Cooler Fan 120mm,6,128.33
-Teclado Mecânico,3,226.28
-Headset USB,9,491.3
-Roteador Dual Band,8,231.83
-Pendrive 64GB,4,425.79
-Pasta Térmica,2,465.34
-Memória RAM 8GB,10,366.1
-Mousepad Extra Large,6,343.12
-Cabo HDMI 2m,6,285.78
-Gabinete ATX,1,371.09
-Mouse Gamer RGB,6,416.69
-Cabo HDMI 2m,2,401.67
-Memória RAM 8GB,1,308.51
-Memória RAM 8GB,8,466.17
-Headset USB,10,417.05
-Memória RAM 8GB,4,260.78
-Pasta Térmica,4,281.05
-Switch 8 Portas,10,415.84
-Placa de Vídeo,1,263.76
-Cooler Fan 120mm,5,394.97
-Mousepad Extra Large,10,215.99
-Cooler Fan 120mm,4,130.98
-Processador i5,8,196.41
-Mouse Gamer RGB,3,98.2
-Headset USB,5,482.19
-Mouse Gamer RGB,5,201.59
-Processador i5,4,287.02
-Mousepad Extra Large,5,127.13
-Cabo de Rede Cat6,6,480.74
-Switch 8 Portas,10,38.99
-Monitor 24 Pol,1,439.72
-Fonte 500W,7,125.32
-Roteador Dual Band,9,414.57
-Cabo de Rede Cat6,2,96.0
-Placa de Vídeo,10,304.86
-Cabo HDMI 2m,3,442.15
-Pasta Térmica,4,392.73
-Adaptador Wi-Fi,2,364.17
-Memória RAM 8GB,2,33.07
-Pendrive 64GB,4,13.46
-Cabo HDMI 2m,7,161.44
-Headset USB,1,245.49
-Mouse Gamer RGB,4,432.63
-Placa de Vídeo,6,198.48
-Cabo HDMI 2m,4,330.34
-Monitor 24 Pol,8,334.5
-Memória RAM 8GB,5,298.4
-Teclado Mecânico,4,98.17
-Placa de Vídeo,10,482.64
-Switch 8 Portas,7,262.19
-Roteador Dual Band,7,448.73
-Webcam 1080p,2,446.37
-Teclado Mecânico,3,29.71
-Headset USB,4,326.57
-Pendrive 64GB,1,68.74
-Fonte 500W,6,128.63
-Adaptador Wi-Fi,3,100.93
-Monitor 24 Pol,6,378.85
-Cooler Fan 120mm,5,432.03
-Memória RAM 8GB,6,155.86
-Adaptador Wi-Fi,3,174.26
-Mouse Gamer RGB,2,383.33
-Switch 8 Portas,1,437.64
-Fonte 500W,3,115.45
-Headset USB,6,44.28
-Gabinete ATX,4,188.52
-Placa de Vídeo,5,106.34
-Webcam 1080p,8,430.39
-Pendrive 64GB,3,203.62
-Roteador Dual Band,1,180.22
-Cabo de Rede Cat6,6,144.44
-Cooler Fan 120mm,5,220.74
-Mouse Gamer RGB,3,204.86
+produto,quantidade,preco_unitario,data_venda
+Webcam 1080p,7,224.34,08/05/2023
+Cabo HDMI 2m,1,354.45,05/07/2024
+Pendrive 64GB,9,54.7,17/12/2025
+Roteador Dual Band,6,40.13,24/01/2025
+SSD 480GB,10,252.61,17/10/2026
+Teclado Mecânico,1,375.83,19/01/2020
+Webcam 1080p,1,110.25,17/05/2023
+SSD 480GB,8,247.24,22/06/2022
+Placa de Vídeo,1,307.59,22/01/2020
+Roteador Dual Band,6,129.09,12/12/2023
+Switch 8 Portas,10,229.3,19/06/2020
+Cooler Fan 120mm,5,362.63
+Gabinete ATX,7,295.47,16/12/2024
+Fonte 500W,6,293.07,14/04/2022
+Processador i5,3,484.7,19/02/2025
+Roteador Dual Band,3,120.23,18/06/2024
+Pendrive 64GB,5,427.18,19/02/2026
+Cabo de Rede Cat6,1,210.46,02/10/2020
+Cabo HDMI 2m,10,282.5,10/10/2022
+Adaptador Wi-Fi,1,372.6,02/11/2025
+Memória RAM 8GB,8,204.72,28/08/2022
+Placa de Vídeo,7,168.19,26/07/2022
+Webcam 1080p,9,468.07,02/10/2026
+Pasta Térmica,7,460.35,23/11/2026
+Cabo de Rede Cat6,1,321.5,02/06/2021
+Cabo HDMI 2m,4,87.4,20/05/2025
+Mousepad Extra Large,7,28.47,19/05/2023
+Mouse Gamer RGB,7,19.07,20/10/2025
+Cabo HDMI 2m,9,138.72,15/01/2024
+Placa de Vídeo,9,313.97,20/03/2021
+Cabo de Rede Cat6,9,210.21,13/01/2024
+Mousepad Extra Large,3,192.54,02/09/2024
+Switch 8 Portas,4,63.96,02/11/2023
+Mousepad Extra Large,5,425.9,11/01/2023
+Headset USB,3,146.09,11/07/2023
+SSD 480GB,7,296.62,14/06/2020
+Switch 8 Portas,6,14.75,20/01/2025
+Switch 8 Portas,9,236.33,24/11/2025
+Teclado Mecânico,1,41.28,25/02/2020
+Gabinete ATX,5,250.74,22/06/2025
+Gabinete ATX,7,156.53,01/02/2026
+Cooler Fan 120mm,4,160.96,16/06/2020
+Cabo de Rede Cat6,4,193.53,07/02/2024
+Cabo HDMI 2m,10,64.96,15/05/2025
+Webcam 1080p,8,165.6,11/08/2022
+Teclado Mecânico,8,74.19,08/05/2026
+Fonte 500W,4,342.11,08/08/2023
+Roteador Dual Band,7,321.44,15/03/2020
+Fonte 500W,5,125.81,04/07/2024
+Roteador Dual Band,7,471.78,17/02/2021
+Monitor 24 Pol,6,127.97,19/08/2023
+Pasta Térmica,3,51.68,02/03/2026
+Mousepad Extra Large,10,284.62,26/10/2025
+Pendrive 64GB,7,91.18,04/05/2024
+Mousepad Extra Large,3,105.06,11/12/2026
+Webcam 1080p,8,115.58,08/10/2021
+Roteador Dual Band,7,324.01,03/07/2023
+Processador i5,5,169.15,20/06/2025
+Fonte 500W,10,241.01,08/09/2022
+Pasta Térmica,2,434.3,25/06/2024
+Switch 8 Portas,9,302.07,11/10/2021
+Teclado Mecânico,5,250.88,25/03/2022
+Processador i5,2,411.08,26/05/2020
+Monitor 24 Pol,5,229.99,07/12/2026
+Headset USB,4,453.1,11/04/2020
+Switch 8 Portas,2,87.76,10/02/2025
+SSD 480GB,8,27.84,22/12/2025
+Cabo HDMI 2m,9,466.1,15/04/2023
+Pasta Térmica,10,25.09,03/11/2021
+Roteador Dual Band,1,436.79,20/11/2025
+Pendrive 64GB,3,279.75,18/05/2024
+Memória RAM 8GB,9,344.26,15/01/2025
+Mouse Gamer RGB,7,359.84,22/04/2021
+Webcam 1080p,7,286.78,14/12/2021
+Monitor 24 Pol,10,397.57,20/04/2025
+Fonte 500W,4,397.8,03/09/2025
+Adaptador Wi-Fi,4,118.24,03/11/2023
+Teclado Mecânico,9,295.09,17/04/2021
+Cabo HDMI 2m,2,152.46,07/11/2026
+Processador i5,1,139.12,26/09/2020
+Processador i5,10,297.48,02/01/2021
+Headset USB,3,356.68,15/05/2021
+Cabo de Rede Cat6,6,143.7,18/08/2020
+Mousepad Extra Large,3,411.2,21/01/2023
+SSD 480GB,6,390.53,01/11/2024
+Monitor 24 Pol,10,256.34,21/07/2021
+Gabinete ATX,10,81.42,16/09/2021
+Teclado Mecânico,8,372.86,14/12/2023
+Headset USB,10,167.58,01/02/2023
+Processador i5,9,178.88,26/12/2020
+Roteador Dual Band,4,160.31,24/05/2021
+Monitor 24 Pol,5,218.68,13/01/2023
+Pendrive 64GB,10,301.63,24/12/2021
+Webcam 1080p,7,379.68,27/02/2021
+SSD 480GB,3,335.37,02/12/2020
+Roteador Dual Band,9,477.61,22/06/2020
+Processador i5,7,267.73,02/04/2025
+Placa de Vídeo,4,56.36,12/08/2025
+Headset USB,7,168.56,15/08/2022
+Pasta Térmica,1,443.79,05/10/2020
+SSD 480GB,7,446.2,22/09/2020
+SSD 480GB,10,292.94,11/12/2026
+Teclado Mecânico,10,299.86,12/10/2024
+Headset USB,8,220.19,18/10/2024
+Roteador Dual Band,7,395.02,06/08/2025
+Fonte 500W,8,97.51,20/02/2020
+Processador i5,3,392.37,26/06/2021
+Switch 8 Portas,7,161.71,26/07/2022
+Adaptador Wi-Fi,8,86.05,28/07/2025
+Headset USB,4,416.28,22/12/2024
+Pendrive 64GB,2,466.97,16/07/2021
+Headset USB,9,481.25,01/07/2026
+Pasta Térmica,9,496.37,22/01/2025
+Roteador Dual Band,4,338.04,06/05/2026
+Switch 8 Portas,8,243.8,07/07/2021
+Cabo de Rede Cat6,4,94.67,09/05/2022
+Pasta Térmica,3,222.7,25/12/2021
+Switch 8 Portas,5,297.17,14/03/2021
+Gabinete ATX,1,202.72,16/06/2024
+Mousepad Extra Large,5,188.97,04/08/2026
+Roteador Dual Band,9,218.36,14/05/2023
+Monitor 24 Pol,9,433.35,19/05/2024
+Switch 8 Portas,8,309.37,04/01/2021
+Monitor 24 Pol,2,401.72,20/08/2023
+Cabo de Rede Cat6,8,260.91,16/04/2022
+Fonte 500W,10,71.91,21/01/2021
+Headset USB,2,200.8,01/03/2025
+Switch 8 Portas,1,137.34,09/11/2025
+Roteador Dual Band,3,418.18,05/05/2020
+Headset USB,4,79.08,22/07/2024
+Memória RAM 8GB,5,227.0,01/02/2024
+Cabo HDMI 2m,9,492.33,20/12/2020
+Cooler Fan 120mm,3,180.36,11/10/2025
+Webcam 1080p,6,360.76,17/10/2026
+Gabinete ATX,9,13.06,16/05/2020
+Roteador Dual Band,4,375.48,19/02/2024
+Fonte 500W,5,71.03,03/08/2026
+Mouse Gamer RGB,9,119.43,27/02/2026
+Pendrive 64GB,7,493.39,27/11/2025
+Cabo HDMI 2m,3,187.69,17/06/2023
+Cooler Fan 120mm,6,38.85,16/08/2025
+Cabo HDMI 2m,8,328.79,14/03/2025
+Placa de Vídeo,2,471.22,02/06/2024
+Cabo de Rede Cat6,9,318.12,20/09/2022
+Fonte 500W,6,275.67,05/10/2024
+Adaptador Wi-Fi,8,440.66,14/03/2022
+Webcam 1080p,6,53.37,01/05/2026
+Cooler Fan 120mm,3,287.91,04/11/2022
+Cabo HDMI 2m,6,480.16,14/01/2020
+Cabo HDMI 2m,2,303.26,13/04/2023
+Pendrive 64GB,7,442.63,24/08/2024
+Adaptador Wi-Fi,10,14.65,27/04/2020
+Roteador Dual Band,2,30.84,04/05/2023
+Cooler Fan 120mm,5,79.64,10/11/2026
+Cabo HDMI 2m,5,45.35,17/01/2026
+Mouse Gamer RGB,9,228.63,19/02/2020
+Cooler Fan 120mm,4,470.1,13/07/2022
+Cabo HDMI 2m,2,448.67,05/04/2026
+Pasta Térmica,3,499.36,17/11/2023
+Pendrive 64GB,4,172.03,23/08/2020
+Placa de Vídeo,3,457.78,25/11/2023
+Webcam 1080p,4,493.66,01/01/2022
+Adaptador Wi-Fi,1,318.3,09/01/2021
+Memória RAM 8GB,1,291.69,26/03/2023
+Cooler Fan 120mm,10,491.65,11/07/2020
+Headset USB,1,208.83,19/08/2024
+Cooler Fan 120mm,3,307.87,12/10/2023
+Cooler Fan 120mm,2,310.25,02/06/2020
+Mouse Gamer RGB,9,356.49,10/02/2025
+Cabo de Rede Cat6,4,19.01,24/03/2022
+Teclado Mecânico,8,288.24,16/10/2021
+Switch 8 Portas,8,143.03,10/12/2021
+Gabinete ATX,3,435.41,15/09/2025
+Fonte 500W,2,116.01,04/03/2020
+Fonte 500W,2,184.77,05/09/2023
+Webcam 1080p,9,104.29,25/08/2021
+Roteador Dual Band,9,185.16,21/09/2024
+Pasta Térmica,6,394.4,07/10/2021
+Cooler Fan 120mm,9,453.75,17/09/2025
+Monitor 24 Pol,2,69.79,26/06/2026
+Cooler Fan 120mm,5,60.28,25/11/2023
+Adaptador Wi-Fi,7,214.32,10/08/2026
+Cabo HDMI 2m,1,86.52,22/11/2023
+Gabinete ATX,3,417.03,08/09/2022
+Cooler Fan 120mm,2,88.15,13/11/2021
+Memória RAM 8GB,1,456.95,17/01/2024
+Cooler Fan 120mm,9,440.75,18/11/2025
+Roteador Dual Band,8,193.77,11/05/2026
+Headset USB,3,453.22,22/01/2025
+Cabo de Rede Cat6,9,406.0,16/03/2023
+Mouse Gamer RGB,9,164.08,28/05/2024
+Headset USB,1,44.27,01/02/2020
+Mousepad Extra Large,9,209.32,09/04/2021
+Pasta Térmica,5,55.41,15/06/2021
+Fonte 500W,1,442.8,17/09/2023
+Processador i5,6,47.2,11/02/2020
+Pendrive 64GB,3,145.39,10/10/2026
+Monitor 24 Pol,5,402.2,16/11/2025
+Processador i5,8,476.68,25/03/2026
+Pasta Térmica,3,269.69,14/10/2024
+Cabo HDMI 2m,3,194.6,17/07/2021
+Switch 8 Portas,6,406.63,06/05/2026
+Processador i5,3,170.3,28/07/2023
+Webcam 1080p,9,342.06,04/12/2022
+Memória RAM 8GB,8,446.05,26/12/2021
+Switch 8 Portas,2,55.45,26/01/2021
+Gabinete ATX,6,270.25,07/06/2021
+Placa de Vídeo,8,393.15,01/09/2025
+Gabinete ATX,7,197.22,11/03/2026
+Webcam 1080p,7,12.39,08/01/2025
+Pendrive 64GB,8,73.69,13/01/2023
+Adaptador Wi-Fi,6,97.45,07/08/2020
+Webcam 1080p,2,355.05,12/05/2021
+Webcam 1080p,7,93.8,18/12/2025
+Roteador Dual Band,1,269.62,08/09/2025
+Cabo de Rede Cat6,1,89.81,17/10/2020
+Roteador Dual Band,5,122.54,21/09/2025
+Memória RAM 8GB,4,116.11,04/04/2020
+Pendrive 64GB,6,168.35,04/11/2025
+Webcam 1080p,1,464.15,17/06/2020
+Pasta Térmica,8,497.15,18/10/2026
+SSD 480GB,9,475.9,28/05/2021
+Headset USB,8,407.52,03/02/2026
+Gabinete ATX,3,288.38,22/11/2024
+Gabinete ATX,8,396.25,25/08/2024
+Memória RAM 8GB,9,358.25,03/10/2020
+Teclado Mecânico,5,268.53,28/04/2026
+Pasta Térmica,3,236.08,14/06/2021
+Cabo de Rede Cat6,6,214.33,07/09/2022
+Pendrive 64GB,7,479.54,28/01/2021
+Pasta Térmica,10,406.1,11/12/2025
+Pendrive 64GB,5,419.91,22/01/2021
+Pasta Térmica,2,367.54,24/03/2020
+Cabo de Rede Cat6,6,204.26,17/08/2020
+Pasta Térmica,5,485.41,27/08/2024
+Headset USB,8,365.92,15/01/2026
+Roteador Dual Band,6,30.53,16/11/2020
+Switch 8 Portas,4,145.65,13/03/2024
+Gabinete ATX,4,265.19,18/12/2020
+Placa de Vídeo,4,10.08,28/07/2020
+Mousepad Extra Large,5,278.55,15/12/2023
+Cooler Fan 120mm,9,410.65,17/09/2024
+Roteador Dual Band,4,149.63,14/08/2023
+Fonte 500W,7,279.76,25/05/2023
+Mousepad Extra Large,7,370.55,11/04/2025
+Cabo HDMI 2m,10,484.74,14/06/2026
+Webcam 1080p,7,209.41,25/10/2020
+Monitor 24 Pol,3,412.7,16/07/2021
+Fonte 500W,7,396.55,06/05/2023
+Cabo de Rede Cat6,3,157.55,01/05/2020
+Switch 8 Portas,6,67.52,06/12/2026
+SSD 480GB,8,192.57,13/04/2021
+Pendrive 64GB,9,161.79,18/08/2025
+Pasta Térmica,1,406.85,23/09/2022
+Processador i5,10,288.7,19/02/2025
+Cabo de Rede Cat6,8,187.42,03/05/2024
+Memória RAM 8GB,9,47.1,01/07/2025
+Roteador Dual Band,2,197.4,06/12/2022
+Adaptador Wi-Fi,8,174.49,28/09/2026
+Memória RAM 8GB,6,182.86,12/09/2025
+Adaptador Wi-Fi,9,261.7,06/05/2022
+Headset USB,10,228.69,27/02/2026
+SSD 480GB,5,237.39,01/01/2025
+Mousepad Extra Large,3,172.0,16/07/2024
+Adaptador Wi-Fi,4,362.07,11/05/2020
+Teclado Mecânico,10,208.62,23/02/2022
+Mousepad Extra Large,7,156.93,26/11/2020
+Cabo HDMI 2m,5,15.35,16/04/2025
+Memória RAM 8GB,8,119.54,02/06/2023
+Pasta Térmica,8,21.41,12/01/2022
+Adaptador Wi-Fi,5,211.34,26/09/2024
+Mousepad Extra Large,6,121.15,20/05/2026
+Headset USB,4,98.56,22/05/2026
+Webcam 1080p,10,165.4,21/05/2026
+Gabinete ATX,9,289.69,19/10/2025
+Monitor 24 Pol,9,18.49,04/04/2020
+Teclado Mecânico,3,359.71,01/02/2020
+Teclado Mecânico,7,316.68,20/11/2021
+Switch 8 Portas,2,278.25,20/06/2020
+Headset USB,4,377.52,14/06/2024
+Placa de Vídeo,1,204.01,12/09/2024
+Fonte 500W,8,400.12,03/11/2025
+Cooler Fan 120mm,10,150.57,24/02/2025
+Gabinete ATX,1,286.11,23/11/2020
+Pendrive 64GB,10,235.42,17/09/2025
+Memória RAM 8GB,2,425.13,04/11/2026
+Fonte 500W,2,369.32,04/10/2025
+Monitor 24 Pol,3,145.78,01/10/2022
+Monitor 24 Pol,4,38.67,06/02/2020
+Cabo HDMI 2m,10,50.64,28/05/2026
+Memória RAM 8GB,3,409.54,27/03/2024
+Adaptador Wi-Fi,7,29.6,27/09/2026
+SSD 480GB,10,165.65,24/02/2024
+Monitor 24 Pol,10,42.82,28/01/2022
+Mousepad Extra Large,7,247.86,25/07/2021
+Processador i5,3,381.06,27/11/2025
+Teclado Mecânico,1,495.19,21/02/2023
+Mousepad Extra Large,9,29.42,10/05/2025
+Fonte 500W,2,443.71,14/07/2024
+Cabo HDMI 2m,4,62.94,24/03/2024

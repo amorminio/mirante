@@ -1,3 +1,5 @@
+Versão 0.1.1
+
 1 - Instalação : 
 
     1. Clonar o repositório

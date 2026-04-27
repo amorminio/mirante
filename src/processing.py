@@ -18,9 +18,7 @@ def parse_vendas(
     linhas = csv.DictReader(dados_csv)
     vendas: List[Venda] = []
     
-    print('Linhas>>',linhas)
     for linha in linhas:
-        print('passo 2')
         try:
             if not linha["data_venda"]:
                 logger.warning(f"Linha com data vazia ignorada: {linha}")
@@ -57,5 +55,6 @@ def vendas_por_produto(vendas: List[Venda]) -> dict[str, Decimal]:
         vendas_por_produto[venda.produto] += venda.faturamento_total
     
     logger.info(f"Foram processadas {len(vendas_por_produto)} vendas")
+    
     
     return vendas_por_produto

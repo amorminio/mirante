@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 from tabulate import tabulate
 from src.models import Venda
 from typing import Dict,List
+import argparse
 
 def validar_data(data_str: str) -> datetime:
     try:

@@ -8,9 +8,6 @@ from .util import validar_data
 from src.processing import parse_vendas
 from src.analytics import gerar_relatorio_faturamento, vendas_por_produto
 
-
-
-
 def main() -> None:
 
     configurar_logger()
@@ -39,11 +36,7 @@ def main() -> None:
             
             relatorio_faturamento = gerar_relatorio_faturamento(vendas)
             relatorio_vendas_por_produto = vendas_por_produto(vendas)
-            
-            logger.info(f"Relatório Faturamento: {relatorio_faturamento}")
-            logger.info(f"Relatório vendas por produto: {relatorio_vendas_por_produto}")
-            
-            
+           
             logger.info("Processamento concluído!")
     except FileNotFoundError:
         logger.error("Arquivo não encontrado!")
@@ -76,7 +69,6 @@ def parser_config() -> Dict[str,Any]:
 
     configs = vars(args)
     
-
     return configs
 
 if __name__ == "__main__":

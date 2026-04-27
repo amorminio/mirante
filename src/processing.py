@@ -14,10 +14,13 @@ def parse_vendas(
         fim: Optional[datetime] = None
         ) -> List[Venda]:
     
+    
     linhas = csv.DictReader(dados_csv)
     vendas: List[Venda] = []
     
+    print('Linhas>>',linhas)
     for linha in linhas:
+        print('passo 2')
         try:
             if not linha["data_venda"]:
                 logger.warning(f"Linha com data vazia ignorada: {linha}")

@@ -1,13 +1,21 @@
 
-charset-normalizer
-argparse
+charset-normalizer==3.3.2
+argparse==1.4.0
+coverage==7.13.5
+iniconfig==2.3.0
+librt==0.9.0
+mypy_extensions==1.1.0
+packaging==26.1
+pathspec==1.1.0
+pluggy==1.6.0
+Pygments==2.20.0
+tabulate==0.10.0
+typing_extensions==4.15.0
 
 #Qualidade
-ruff
-mypy
+ruff==0.15.12
+mypy==1.20.2
 
 #Testes
-pytest
-pytest-cov
-
-
+pytest==9.0.3
+pytest-cov==7.1.0

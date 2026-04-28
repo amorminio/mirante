@@ -3,8 +3,8 @@ Versão 0.1.1
 1 - Instalação : 
 
     1. Clonar o repositório
-    git clone https://github.com/seu-usuario/vendas-cli.git
-    cd vendas-cli
+    git clone https://github.com/amorminio/mirante.git
+    cd mirante
 
     2. Criar e ativar o ambiente virtual
     python3 -m venv venv

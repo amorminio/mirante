@@ -31,13 +31,37 @@ def vendas_por_produto(vendas: List[Venda]) -> Dict[str, int]:
 
 
 # Relatório 4 - Produto mais vendido
-def produto_mais_vendido(vendas: List[Venda]) -> Tuple[str, int]:
+def produto_mais_vendido(vendas: List[Venda]) -> Tuple[List[str], int]:
     agrupado = vendas_por_produto(vendas)
-    if not agrupado:
-        return ("Sem vendas", 0)
     
-    # chave com o maior valor
-    produto_top = max(agrupado, key=agrupado.get)
-    return (produto_top, agrupado[produto_top])
+    if not agrupado:
+        return (["Sem vendas"], 0)
+
+    # 1. Descobre qual é a maior quantidade vendida
+    vendas_maximas = max(agrupado.values())
+    
+    # 2. Filtra todos os produtos que atingiram essa quantidade
+    produtos_top = [
+        produto for produto, quantidade in agrupado.items() 
+        if quantidade == vendas_maximas
+    ]
+    print(f"\n\nProduto(s) mais vendido(s): {produtos_top}")
+    print(f"\n\n")
+    
+    return (produtos_top, vendas_maximas)
+
+
+def mais_vendidos(vendas: List[Venda]):
+    agrupado = sorted(vendas_por_produto(vendas))
+    first = agrupado[0]
+    
+    result = [x for x in agrupado if x[1] == first[1]]
+    return result
+    
+    
+
+
+
+
 
 

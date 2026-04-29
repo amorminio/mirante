@@ -38,5 +38,6 @@ def gerar_tabela_agrupada(dados_agrupados: Dict[str, int]) -> str:
     )
     
     cabecalhos = ["Produto", "Quantidade Total"]
+    mais_vendido = dados_formatados[0]
     
     return tabulate(dados_formatados, headers=cabecalhos, tablefmt="grid")

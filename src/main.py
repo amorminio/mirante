@@ -6,7 +6,7 @@ from datetime import datetime
 from .logger import configurar_logger, get_logger
 from .util import validar_data
 from src.processing import parse_vendas
-from src.analytics import gerar_relatorio_faturamento, vendas_por_produto
+from src.analytics import gerar_relatorio_faturamento, vendas_por_produto, produto_mais_vendido
 
 def main() -> None:
 
@@ -36,6 +36,9 @@ def main() -> None:
             
             relatorio_faturamento = gerar_relatorio_faturamento(vendas)
             relatorio_vendas_por_produto = vendas_por_produto(vendas)
+            
+            relatorio_produto_mais_vendido = produto_mais_vendido(vendas)
+            
            
             logger.info("Processamento concluído!")
     except FileNotFoundError:
